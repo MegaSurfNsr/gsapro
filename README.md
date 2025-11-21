@@ -1,6 +1,6 @@
 <p align="center">
     <h1 align="center">Robust Gaussian Surface Reconstruction with Semantic Aware Progressive Propagation</h1>
-    <h3 align="center"><a href="https://megasurfnsr.github.io/">Project Page</a> </h3>
+    <h3 align="center"><a href="https://github.com/MegaSurfNsr/gsapro">Project Page</a> </h3>
 </p>
 
 # About
@@ -67,61 +67,9 @@ tensorboard --logdir exp_path/ --bind_all --port 6088
 
 
 # Built On
-<a href="https://github.com/autonomousvision/sdfstudio">
-<!-- pypi-strip -->
-<picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/autonomousvision/sdfstudio/blob/master/media/sdf_studio_4.png" />
-<!-- /pypi-strip -->
-    <img alt="tyro logo" src="https://github.com/autonomousvision/sdfstudio/blob/master/media/sdf_studio_4.png" width="150px" />
-<!-- pypi-strip -->
-</picture>
-<!-- /pypi-strip -->
-</a>
+This project is built upon [PGSR](https://github.com/zju3dv/PGSR). The Prior Branch is based on [ACMH](https://github.com/GhiXu/ACMMP). The Distillation Module is based on [Minisplatting](https://github.com/fatPeter/mini-splatting).  We thank all the authors for their great work and repos. 
 
-- A Unified Framework for Surface Reconstruction
-- Developed by [sdfstudio team](https://autonomousvision.github.io/sdfstudio/)
-- 
-<a href="https://github.com/nerfstudio-project/nerfstudio">
-<!-- pypi-strip -->
-<picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://docs.nerf.studio/en/latest/_images/logo.png" />
-<!-- /pypi-strip -->
-    <img alt="tyro logo" src="https://docs.nerf.studio/en/latest/_images/logo.png" width="150px" />
-<!-- pypi-strip -->
-</picture>
-<!-- /pypi-strip -->
-</a>
 
-- A collaboration friendly studio for NeRFs
-- Developed by [nerfstudio team](https://github.com/nerfstudio-project)
-
-<a href="https://github.com/brentyi/tyro">
-<!-- pypi-strip -->
-<picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://brentyi.github.io/tyro/_static/logo-dark.svg" />
-<!-- /pypi-strip -->
-    <img alt="tyro logo" src="https://brentyi.github.io/tyro/_static/logo-light.svg" width="150px" />
-<!-- pypi-strip -->
-</picture>
-<!-- /pypi-strip -->
-</a>
-
-- Easy-to-use config system
-- Developed by [Brent Yi](https://brentyi.com/)
-
-<a href="https://github.com/KAIR-BAIR/nerfacc">
-<!-- pypi-strip -->
-<picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/3310961/199083722-881a2372-62c1-4255-8521-31a95a721851.png" />
-<!-- /pypi-strip -->
-    <img alt="tyro logo" src="https://user-images.githubusercontent.com/3310961/199084143-0d63eb40-3f35-48d2-a9d5-78d1d60b7d66.png" width="250px" />
-<!-- pypi-strip -->
-</picture>
-<!-- /pypi-strip -->
-</a>
-
-- Library for accelerating NeRF renders
-- Developed by [Ruilong Li](https://www.liruilong.cn/)
 
 # Citation
 
